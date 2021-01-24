@@ -61,6 +61,28 @@ form {
 	text-align: center;
 	color: #7493b9;
 }
+.clear > div {
+	width: 50%;
+	padding: 5px;
+}
+.clear input {
+	font-size: 25px;
+	text-transform: uppercase;
+	background-color: #fb8c00;
+	color: #ffffff;
+}
+.buttons.close {
+	position: relative;
+}
+.buttons.close:before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.buttons.close input {
+	outline: none!important;
+}
 .buttons > div {
 	width: 25%;
 	padding: 5px;
