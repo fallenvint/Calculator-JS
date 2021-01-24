@@ -1,0 +1,77 @@
+*, ::after, ::before {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Montserrat, sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.4;
+	color: #999999;
+	background-color: #FFFFFF;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	user-select: none; 
+}
+.flex {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+}
+form {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+}
+.calculator {
+	max-width: 240px;
+	margin: 0 auto;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: #5a5c69;
+}
+.calculator input {
+	width: 100%;
+	border: none;
+	padding: 5px;
+	border-radius: 10px;
+}
+.result {
+	margin-bottom: 5px;
+}
+.result > div {
+	width: 100%;
+	padding: 5px;
+}
+.result input {
+	padding: 10px 20px;
+	outline: none!important;
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 1;
+	background-color: #c0d796;
+	color: #7493b9;
+}
+.result input::placeholder {
+	text-align: center;
+	color: #7493b9;
+}
+.buttons > div {
+	width: 25%;
+	padding: 5px;
+}
+.buttons input {
+	padding: 3px;
+	font-size: 39px;
+	line-height: 1;
+	background-color: #bcc1c7;
+	color: #ffffff;
+}
+.buttons input.number {
+	background-color: #3d4049;
+}
